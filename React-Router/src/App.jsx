@@ -1,11 +1,11 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import Nav from './src/components/Nav';
-import Home from './src/components/Home';
-import Blue from './src/components/Blue';
-import Red from './src/components/Red';
-import Green from './src/components/Green';
-import Yellow from './src/components/Yellow';
+import Nav from './components/Nav';
+import Home from './components/Home';
+import Blue from './components/Blue';
+import Red from './components/Red';
+import Green from './components/Green';
+import Yellow from './components/Yellow';
 import "./App.css";
 
 function App() {
