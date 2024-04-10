@@ -1,0 +1,119 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a simple background color and font to the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Navigation styling */
+nav {
+  background-color: #333;
+  padding: 1em;
+  margin-bottom: 20px;
+  /* Added margin-bottom to create space between navigation and sections */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  /* Center the links horizontally */
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Container for sections */
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* Ensure responsiveness */
+  max-width: 1200px;
+  /* Limit container width */
+  margin: 0 auto;
+  /* Center the container */
+  padding: 2em 0;
+  /* Add some space around the sections */
+}
+
+/* Styling for each section */
+.section {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add a subtle shadow */
+  background-color: #7dc1e9;
+  /* White background */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition for hover effect */
+}
+
+/* Hover effect for sections */
+.section:hover {
+  transform: translateY(-5px);
+  /* Move section up slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Increase shadow on hover */
+}
+
+/* Styling for section links */
+.logo {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+}
+
+/* Styling for section links on hover */
+.logo:hover {
+  color: #ffcc00;
+}
+
+/* Individual section colors */
+.red {
+  background-color: #ff4d4d;
+  /* Red */
+}
+
+.blue {
+  background-color: #4d94ff;
+  /* Blue */
+}
+
+.green {
+  background-color: #0fd60f;
+  /* Green */
+}
+
+.yellow {
+  background-color: #ffff66;
+  /* Yellow */
+}
